@@ -1,0 +1,486 @@
+*{
+    margin: 0;
+    font-family: 'Arial';
+    background-color: #232323;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: #232323;
+    position: relative;
+}
+.nav-logo{
+    width: 90px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.menu{
+    position: absolute;
+    top: 20px;
+    left: 492px;    
+}
+.navbar a {
+    font-family: 'KoHo', sans-serif;
+    text-decoration: none;
+    color: #ffe325;
+    font-size: 19px;
+    margin-left: 100px;
+}
+.navbar a:hover{
+    text-shadow: 0px 0px 10px #ffe325;
+}
+.navbar i{
+    font-size: 30px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+.navbar i:hover{
+    text-shadow: 0px 0px 10px #ffe325;
+}
+
+.big-yellow{
+    background-image: linear-gradient(160deg,rgba(255,227,82,1),rgba(255,227,82,0.3));
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+.small-yellow{
+    background-image: linear-gradient(160deg,rgba(255,227,82,1),rgba(255,227,82,0.3));
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    position: absolute;
+    top: 190px;
+    left: 600px;
+}
+.big-glass{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 430px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.1px);
+    -webkit-backdrop-filter: blur(7.1px);
+    border: 1px solid rgba(255, 255, 255, 0.489);
+    width: 430px;
+    height: 430px;
+    position: absolute;
+    top: 250px;
+    left: 400px;
+}
+.small-glass{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 430px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.1px);
+    -webkit-backdrop-filter: blur(7.1px);
+    border: 1px solid rgba(255, 255, 255, 0.33);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 350px;
+    left: 100px;
+}
+.play{
+    background-image: url(play.png);
+    background-color: transparent;
+    width: 231px;
+    height: 227px;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+}
+.pause1{
+    background-color: #232323;
+    border: 1px solid rgba(255, 255, 255, 0.33);
+    width: 21px;
+    height: 65px;
+    position: absolute;
+    top: 35%;
+    left: 32%;
+}
+.pause2{
+    background-color: #232323;
+    border: 1px solid rgba(255, 255, 255, 0.33);
+    width: 21px;
+    height: 65px;
+    position: absolute;
+    top: 35%;
+    right: 32%;
+}
+
+
+.tagline{
+    background-color: transparent;
+    margin-left: 1000px;
+    margin-top: 150px;
+}
+.tag1{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    padding: 5px;
+    font-family: 'League Spartan', sans-serif;
+}
+.tag2{
+    color: #ffe325;
+    font-size: 60px;
+    font-weight: 700;
+    padding: 5px;
+    font-family: 'League Spartan', sans-serif;
+}
+.tag3{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    padding: 5px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.regst{
+    position: relative;
+    margin-left: 1000px;
+    margin-top: 100px;
+    background-color: transparent;
+
+}
+.log-in{
+    position: absolute;
+    border: 0;
+    background-image: linear-gradient(to left,rgba(167,140,0,1),rgba(237,199,0,1));
+    width: 100px;
+    height: 50px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    left: 101px;
+}
+.sign-in{
+    border: 0;
+    background-image: linear-gradient(to right,rgba(255,227,82,1),rgba(237,199,0,1));
+    width: 100px;
+    height: 50px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#reg:hover{
+    box-shadow: 0px 3px 10px #000000;
+}
+
+.explore{
+    margin-top: 100px;
+    background-color: #232323;
+    box-shadow: 0px 5px 5px black;
+}
+.explore p{
+    font-size: 20px;
+    font-family: 'League Spartan', sans-serif;
+    color: #ffe325;
+    margin-left: 1050px;
+    padding-bottom: 10px;
+    background-color: transparent;
+}
+.explore i{
+    margin-left: 1100px;
+    font-size: 20px;
+    background-color: transparent;
+    padding-bottom: 30px;
+}
+
+.chars{
+    background-color: #ffe325;
+    width: 100%;
+    height: 750px;
+    position: relative;
+}
+.chars .quest{
+    background-color: transparent;
+    color: #232323;
+    position: absolute;
+    top: 20px;
+    left: 41%;
+    font-size: 30px;
+    font-family: 'KoHo', sans-serif;
+}
+.music1{
+    background-color: #232323;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 70px;
+    left: 45%;
+    border: 30px solid #232323;
+    border-radius: 20px;
+    transition: 1s;
+    align-items: center;
+}
+.music1-img{
+    background-color: transparent;
+    width: 80px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.music1 p{
+    display: none;
+    color: #ffe325;
+    position: absolute;
+    font-size: 60px;
+    background-color: transparent;
+    left: 200px;
+    font-family: 'League Spartan', sans-serif;
+}
+.music1:hover{
+    width: 430px;
+    transform: translateX(-150px);
+}
+.music1:hover>p{
+    display: block;
+
+}
+
+.music2{
+    background-color: #232323;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 240px;
+    left: 45%;
+    border: 30px solid #232323;
+    border-radius: 20px;
+    transition: 1s;
+    align-items: center;
+}
+.music2-img{
+    background-color: transparent;
+    width: 80px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.music2 p{
+    display: none;
+    color: #ffe325;
+    position: absolute;
+    font-size: 40px;
+    background-color: transparent;
+    left: 200px;
+    font-family: 'League Spartan', sans-serif;
+}
+.music2:hover{
+    width: 380px;
+    transform: translateX(-120px);
+}
+.music2:hover>p{
+    display: block;
+
+}
+
+.music3{
+    background-color: #232323;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 410px;
+    left: 45%;
+    border: 30px solid #232323;
+    border-radius: 20px;
+    transition: 1s;
+    align-items: center;
+}
+.music3-img{
+    background-color: transparent;
+    width: 80px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.music3 p{
+    display: none;
+    color: #ffe325;
+    position: absolute;
+    font-size: 57px;
+    background-color: transparent;
+    left: 200px;
+    font-family: 'League Spartan', sans-serif;
+}
+.music3:hover{
+    width: 380px;
+    transform: translateX(-120px);
+}
+.music3:hover>p{
+    display: block;
+}
+
+.music4{
+    background-color: #232323;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 580px;
+    left: 45%;
+    border: 30px solid #232323;
+    border-radius: 20px;
+    transition: 1s;
+    align-items: center;
+}
+.music4-img{
+    background-color: transparent;
+    width: 80px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.music4 p{
+    display: none;
+    color: #ffe325;
+    position: absolute;
+    font-size: 40px;
+    background-color: transparent;
+    left: 200px;
+    font-family: 'League Spartan', sans-serif;
+}
+.music4:hover{
+    width: 410px;
+    transform: translateX(-150px);
+}
+.music4:hover>p{
+     display: block; 
+}
+
+.download{
+    width: 100%;
+    height: 250px;
+}
+.hd{
+    color: #ffe325;
+    font-size: 40px;
+    font-family: 'KoHo', sans-serif;
+    text-shadow: 5px 5px 10px #000000;
+    text-align: center;
+    margin-top: 20px;
+}
+#wind{
+    width: 300px;
+    display: flex;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.1px);
+    -webkit-backdrop-filter: blur(7.1px);
+    border: 1px solid rgba(255, 255, 255, 0.489);
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: rgb(223, 223, 223);
+    font-family: monospace;
+    margin-top: 40px;
+    margin-left: 300px;
+    box-shadow:5px 5px 10px #000000;
+    position: absolute;
+}
+#wind:hover{
+    box-shadow: 0px 0px 10px #000000;
+}
+.win img{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+}
+
+#maco{
+    width: 300px;
+    display: flex;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.1px);
+    -webkit-backdrop-filter: blur(7.1px);
+    border: 1px solid rgba(255, 255, 255, 0.489);
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: rgb(223, 223, 223);
+    font-family: monospace;
+    margin-top: 40px;
+    margin-left: 900px;
+    box-shadow:5px 5px 10px #000000;
+    position: absolute;
+}
+#maco:hover{
+    box-shadow: 0px 0px 10px #000000;
+}
+.mac img{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+}
+.hl{
+    width: 95%;
+    margin: auto;
+    height: 1px;
+    background-color: #ffe325;
+}
+
+.footer{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.name{
+    margin-top: 80px;
+    margin-left: 100px;
+    color: #ffe325;
+    font-family: monospace;
+    font-size: 20px;
+    float: left;
+}
+.socials{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: 1210px;
+    background-color: transparent;
+}
+.insta{
+    background-image: url("8.png");
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    margin: 0px 0px 0px 10px;
+    background-color: transparent;
+}
+.tweet{
+    background-image: url("9.png");
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    margin: 0px 0px 0px 10px;
+    background-color: transparent;
+}
+.linkd{
+    background-image: url("10.png");
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    margin: 0px 0px 0px 10px;
+    background-color: transparent;
+}
+.sochead{
+    margin-top: 30px;
+    margin-right: 230px;
+    color: #ffe325;
+    font-family: monospace;
+    font-size: 20px;
+    float: right;
+}
